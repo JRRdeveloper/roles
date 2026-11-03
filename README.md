@@ -4,10 +4,14 @@
 - **Nombre corto:** `qualityreviewer`
 - **Nombre completo:** Revisor de Calidad
 - **Propósito:** Permitir a auditores visualizar contenidos, participantes, calificaciones e informes dentro de una categoría de cursos sin capacidad de edición, calificación ni interacción en foros.
+<img width="1844" height="647" alt="image" src="https://github.com/user-attachments/assets/97f6b8c7-f6ca-4d25-bfd1-44f2b2b8b385" />
+
 
 ## 2. Contextos Permitidos
 - Categoría (`CONTEXT_COURSECAT`)
 - Curso (`CONTEXT_COURSE`)
+<img width="1314" height="792" alt="image" src="https://github.com/user-attachments/assets/cc3cee48-74e1-4f4d-8aab-b6f27019ca3c" />
+
 
 ## 3. Ajuste de Capacidades (8 Cambios Clave respecto al Arquetipo)
 1. `moodle/category:viewcourselist`: **PERMITIR** (Ver cursos de la categoría).
