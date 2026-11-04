@@ -27,6 +27,9 @@
 - **Asignación en Categoría:** Se asignó al usuario de prueba en el contexto de **Categoría**, heredando acceso a todos los cursos contenidos en ella sin necesidad de matriculación explícita.
 - **Efecto de Sobrescritura Local:** Se aplicó un bloqueo local (`PREVENIR`) en la capacidad `moodle/gradereport/user:view` dentro de un curso específico para verificar cómo la regla local anula la regla heredada de la categoría.
 
+<img width="1430" height="632" alt="image" src="https://github.com/user-attachments/assets/1b46d755-0932-4bdb-815d-437afdb6d0d5" />
+
+
 ## 5. Instalación del Preset XML
 Para importar este rol en otro Moodle:
 1. Ir a `Administración del sitio > Usuarios > Permisos > Definir roles`.
