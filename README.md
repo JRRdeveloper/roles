@@ -11,7 +11,8 @@
 ## 2. Contextos Permitidos
 - Categoría (`CONTEXT_COURSECAT`)
 - Curso (`CONTEXT_COURSE`)
-<img width="1314" height="792" alt="image" src="https://github.com/user-attachments/assets/cc3cee48-74e1-4f4d-8aab-b6f27019ca3c" />
+<img width="1215" height="864" alt="image" src="https://github.com/user-attachments/assets/a5dfffbc-e588-485b-b46c-f977593e2fba" />
+
 
 
 ## 3. Ajuste de Capacidades (8 Cambios Clave respecto al Arquetipo)
