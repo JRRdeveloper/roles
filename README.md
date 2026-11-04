@@ -4,7 +4,8 @@
 - **Nombre corto:** `revisordecalidad`
 - **Nombre completo:** quality_reviewer
 - **Propósito:** Permitir a auditores visualizar contenidos, participantes, calificaciones e informes dentro de una categoría de cursos sin capacidad de edición, calificación ni interacción en foros.
-<img width="1844" height="647" alt="image" src="https://github.com/user-attachments/assets/97f6b8c7-f6ca-4d25-bfd1-44f2b2b8b385" />
+<img width="1833" height="739" alt="image" src="https://github.com/user-attachments/assets/7619d75e-5286-4ce6-b639-72d24466abbc" />
+
 
 
 ## 2. Contextos Permitidos
