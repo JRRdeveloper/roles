@@ -1,7 +1,7 @@
 # Entrega: Rol Personalizado "Revisor de Calidad"
 
 ## 1. Definición del Rol
-- **Nombre corto:** `qualityreviewer`
+- **Nombre corto:** `revisordecalidad`
 - **Nombre completo:** Revisor de Calidad
 - **Propósito:** Permitir a auditores visualizar contenidos, participantes, calificaciones e informes dentro de una categoría de cursos sin capacidad de edición, calificación ni interacción en foros.
 <img width="1844" height="647" alt="image" src="https://github.com/user-attachments/assets/97f6b8c7-f6ca-4d25-bfd1-44f2b2b8b385" />
