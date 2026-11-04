@@ -38,11 +38,19 @@ Para importar este rol en otro Moodle:
 2. Pulsar en `Añadir un nuevo rol`.
 3. Subir el archivo `role_qualityreviewer.xml` adjunto en este repositorio.
 
-## Consulta de PostgreSQL donde se muestran los usuarios en moodle Stable_503 con rol de Revisor de Calidad y su contexto:
+## Consulta de PostgreSQL donde se muestran los usuarios en moodle stable_503 con rol de Revisor de Calidad y su contexto:
 SELECT 
-ID AS ID_USUARIO,
-USERNAME AS USUARIO,
-FIRSTNAME, 
-LASTNAME, 
-EMAIL, 
-CONTEXTID AS ID_CONTEXTO
+u.id as id_usuario,
+u.username as nombre_usuario,
+u.firstname,
+u.lastname,
+r.shortname as nombre_corto,
+cc.id as id_categoria,
+cc.name as nombre_categoria,
+ctx.id as id_contexto,
+to_timestamp(ra.timemodified) as fecha_asignación
+FROM mdl_role_assignments ra 
+JOIN mdl_role r on r.id = ra.roleid join mdl_user u on u.id = ra.userid
+JOIN mdl_context ctx ON ctx.id = ra.contextid
+JOIN mdl_course_categories cc ON cc.id = ctx.instanceid AND ctx.contextlevel = 40
+WHERE r.shortname = 'revisordecalidad';
